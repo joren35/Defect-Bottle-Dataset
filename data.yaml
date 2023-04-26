@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Broken Cap', 'Broken Ring', 'Good Cap', 'Loose Cap', 'No Cap']
+
+roboflow:
+  workspace: product-defect-detection
+  project: bottle-defects-o4gnx
+  version: 27
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/product-defect-detection/bottle-defects-o4gnx/dataset/27
